@@ -18,5 +18,7 @@ It is usually interpreted as:
 
 hash here is independent from the array size to improve the speed
 
+Python's built-in hash table implementation, in the form of the **dict** type, as well as Perl's hash type (%) are used internally to implement namespaces and therefore need to pay more attention to security, i.e., collision attacks. Python sets also use hashes internally, for fast lookup (though they store only keys, not values)
+
 ## Hash function
 A hash function is any function that can be used to map data of arbitrary size to fixed-size values.
