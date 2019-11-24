@@ -13,6 +13,7 @@ The idea of hashing is to distribute the entries (key/value pairs) across an arr
 
 It is usually interpreted as:
 > hash = hashfunc(key)
+
 > index = hash % array_size
 
 hash here is independent from the array size to improve the speed
