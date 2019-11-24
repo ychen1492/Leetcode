@@ -14,6 +14,8 @@ def longestConsecutive(nums: List[int]) -> int:
             count += 1
         elif post_num in num_dict:
             count += 1
+        elif len(nums) == 0 or len(set(nums)) == 1:
+            count = 1
     return count
 
 
